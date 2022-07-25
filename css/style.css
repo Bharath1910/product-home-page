@@ -33,7 +33,7 @@ nav {
 }
 
 .left-section {
-    padding-top: 70px;
+    padding-top: 30px;
 }
 
 .left-section h3 {
@@ -66,6 +66,10 @@ nav {
     top: 9px;
 }
 
+.text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 button {
     background-color: #FE5B32;
@@ -84,16 +88,57 @@ button {
     position: absolute;
 }
 
+.discount {
+    top: 270px;
+    left: -35px;
+
+    height: 150px;
+}
+
 .discount-content {
-    left: 50px;
+    top: 300px;
+    left: -5px;
 }
 
 .discount-content h1 {
     font-family: "Fredoka One";
     color: #FFFFFF;
+    font-size: 50px;
 }
 
-.text {
-    margin-top: 50px;
-    margin-bottom: 50px;
+.discount-content h4 {
+    color: #FFFFFF;
+    font-size: 14px;
+    
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.dot {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.yellow-dot {
+    content: linear-gradient(#FBD104, #FBD104);
+}
+
+.tomato-dot {
+    content:  linear-gradient(#FE5E35, #FE5E35)
+}
+
+.black-dot {
+    content:  linear-gradient(#000000,#000000)
+}
+
+.headset {
+    height: 500px;
 }
