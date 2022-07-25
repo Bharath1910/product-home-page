@@ -8,10 +8,21 @@
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-items {
+    flex: 90;
     display: flex;
+
+    justify-content: center;
+    gap: 60px;
+
+    font-size: 25px;
+}
+
+.active-item {
+    color: #FD582F;
 }
 
 .intro-section {
