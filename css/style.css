@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.intro-section {
+    display: flex;
+}
+
+.left-section h3 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.left-section h1 {
+    font-size: 80px;
+    font-family: "Fredoka One";
+    font-weight: 400;
+}
+
+.sub-headline {
+    font-size: 30px;
+    font-weight: 400;
+}    
+
+.sub-headline img {
+    background-color: #FD582D;
+    padding: 5px 5px;
+    border-radius: 30px;
+}
+
+
+button {
+    background-color: #FE5B32;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.right-section {
+    position: relative;
+}
+
+.discount,.discount-content {
+    position: absolute;
+}
+
+.discount-content {
+    left: 50px;
+}
+.discount-content h1 {
+    font-family: "Fredoka One";
+    color: #FFFFFF;
+}
