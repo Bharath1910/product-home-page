@@ -4,6 +4,9 @@
     font-family: "Poppins";
 }
 
+body {
+    margin: 50px 50px;
+}
 
 nav {
     display: flex;
@@ -29,6 +32,10 @@ nav {
     display: flex;
 }
 
+.left-section {
+    padding-top: 70px;
+}
+
 .left-section h3 {
     font-size: 40px;
     font-weight: 400;
@@ -40,6 +47,11 @@ nav {
     font-weight: 400;
 }
 
+.sub-headlines {
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
 .sub-headline {
     font-size: 30px;
     font-weight: 400;
@@ -49,6 +61,9 @@ nav {
     background-color: #FD582D;
     padding: 5px 5px;
     border-radius: 30px;
+
+    position: relative;
+    top: 9px;
 }
 
 
@@ -72,7 +87,13 @@ button {
 .discount-content {
     left: 50px;
 }
+
 .discount-content h1 {
     font-family: "Fredoka One";
     color: #FFFFFF;
+}
+
+.text {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
